@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_certifikat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.johnyjuice.juicyeet.CertificateImport">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtCertInfo"
+                    android:layout_weight="1.07" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:weightSum="1"
+                android:layout_weight="1.18">
+
+                <EditText
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/txtPassword"
+                    android:layout_weight="0.64" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <Button
+                    android:text="Načti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnImport"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/txt_button"
+                    android:background="@drawable/button_main"
+                    />
+
+                <Button
+                    android:text="Přeskoč"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnSkip"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/txt_button"
+                    android:background="@drawable/button_main"
+                    />
+
+                <Button
+                    android:text="Zruš"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnCancel"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/txt_button"
+                    android:background="@drawable/button_main"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

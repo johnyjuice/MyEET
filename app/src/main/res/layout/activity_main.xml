@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.johnyjuice.juicyeet.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Pokladna"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/txt_button"
+            android:background="@drawable/button_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:minHeight="80dip"
+            android:onClick="onClickPokladna"
+            android:drawableLeft="@drawable/ic_action_pokladna"
+            android:paddingLeft="@dimen/icon_padding"/>
+
+
+        <Button
+            android:text="Ceník"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/txt_button"
+            android:background="@drawable/button_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:minHeight="80dip"
+            android:onClick="onClickCenik"
+            android:drawableLeft="@drawable/ic_action_cenik"
+            android:paddingLeft="@dimen/icon_padding"/>
+
+        <Button
+            android:text="NASTAVENÍ"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/txt_button"
+            android:background="@drawable/button_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:minHeight="80dp"
+            android:onClick="onClickNastaveni"
+            android:drawableLeft="@drawable/ic_action_nastaveni"
+            android:paddingLeft="@dimen/icon_padding"/>
+    </LinearLayout>
+
+</RelativeLayout>

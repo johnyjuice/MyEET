@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.johnyjuice.juicyeet">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="MyEET" />
+        <activity
+            android:name=".Pokladna_menu"
+            android:label="@string/title_activity_pokladna"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Cenik"
+            android:label="@string/title_activity_cenik"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.johnyjuice.juicyeet.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Vytvor_Uprav_Cenik"
+            android:label="@string/title_activity_vytvorUprav"
+            android:parentActivityName=".Cenik" />
+        <activity
+            android:name=".Pridej_zbozi_seznam"
+            android:label="@string/title_activity_seznamZbozi"
+            android:parentActivityName=".Pokladna_menu" />
+        <activity
+            android:name=".Vytvor_Uprav_Uctenku"
+            android:label="@string/title_activity_vytvorUprav"
+            android:parentActivityName=".Pokladna_menu"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".Evidence" />
+        <activity
+            android:name=".Nastaveni_menu"
+            android:label="@string/title_activity_nastaveni"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CertificateImport"
+            android:label="@string/title_activity_certifikat"
+            android:parentActivityName=".Nastaveni_menu" />
+        <activity
+            android:name=".Tiskarna_activity"
+            android:label="@string/title_activity_nastaveniTiskarny"
+            android:parentActivityName=".Nastaveni_menu" />
+        <activity
+            android:name=".DeviceListActivity"
+            android:label="@string/title_activity_listZarizeni"
+            android:parentActivityName=".Tiskarna_activity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".RegisterSale"
+            android:label="@string/title_activity_evidenceTrzby"
+            android:parentActivityName=".Pokladna_menu" />
+        <activity
+            android:name=".SaleDetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName=".Pokladna_menu" />
+        <activity
+            android:name=".Nastaveni_obecne"
+            android:label="@string/title_activity_obecneNastaveni"
+            android:parentActivityName=".Nastaveni_menu" />
+        <activity
+            android:name=".Vzhled_uctenky"
+            android:label="@string/title_activity_vzhledTisku"
+            android:parentActivityName=".Nastaveni_menu">
+        </activity>
+    </application>
+
+</manifest>

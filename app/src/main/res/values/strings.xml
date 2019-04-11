@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">MyEET</string>
+
+    <string name="font_family_light">sans-serif-light</string>
+
+    <string name="title_activity_cenik">Ceník</string>
+    <string name="title_activity_vytvorUprav">Vytvoř/Uprav zboží</string>
+    <string name="title_activity_nastaveni">Nastavení</string>
+    <string name="title_activity_obecneNastaveni">Obecné nastavení</string>
+    <string name="title_activity_certifikat">Certifikát</string>
+    <string name="title_activity_nastaveniTiskarny">Nastavení tiskárny</string>
+    <string name="title_activity_listZarizeni">List zařízení</string>
+    <string name="title_activity_vzhledTisku">Vzhled tisku</string>
+    <string name="title_activity_pokladna">Pokladna</string>
+    <string name="title_activity_seznamZbozi">Seznam zboží</string>
+    <string name="title_activity_evidenceTrzby">Evidence tržby</string>
+    <string name="title_activity_detail">Detail tržby</string>
+    <string name="vymazatZbozi">Opravdu chcete zboží vymazat?</string>
+    <string name="smazatUctenku">Opravdu chcete účtenku vymazat?</string>
+    <string name="smazatCenik">Opravdu chcete ceník vymazat?</string>
+    <string name="yes">Ano</string>
+    <string name="no">Cancel</string>
+
+    <string name="dic_popl">DIČ poplatníka</string>
+    <string name="dic_poverujiciho">DIČ pověřujícího</string>
+    <string name="id_provoz">ID provozovny</string>
+    <string name="id_pokl">ID pokladny</string>
+    <string name="porad_cis">Pořadové číslo</string>
+    <string name="dat_trzby">Datum tržby</string>
+    <string name="celk_trzba">Celková tržba</string>
+    <string name="zakl_nepodl_dph">Základe nepodléhající DPH</string>
+    <string name="zakl_dan1">Základ 1</string>
+    <string name="dan1">Daň 1</string>
+    <string name="zakl_dan2">Základ 2</string>
+    <string name="dan2">Daň 2</string>
+    <string name="zakl_dan3">Základ 3</string>
+    <string name="dan3">Daň 3</string>
+    <string name="cest_sluz">Služební cesta</string>
+    <string name="pouzit_zboz1">Použít zboží 1</string>
+    <string name="pouzit_zboz2">Použít zboží 2</string>
+    <string name="pouzit_zboz3">Použít zboží 3</string>
+    <string name="urceno_cerp_zuct">Určeno čerpání zůstatku</string>
+    <string name="cerp_zuct">Čerpání zůstatku</string>
+    <string name="rezim">Režim</string>
+
+    <string name="HlavickaName">Hlavička - Název firmy</string>
+    <string name="HlavickaDal">Hlavička - 2 řádek</string>
+    <string name="HlavickaDal1">Hlavička - 3 řádek</string>
+    <string name="HlavickaDal2">Hlavička - 4 řádek</string>
+
+    <!-- hints -->
+    <string name="dic_popl_hint"></string>
+    <string name="dic_poverujiciho_hint"></string>
+    <string name="id_provoz_hint"></string>
+    <string name="id_pokl_hint"></string>
+    <string name="porad_cis_hint"></string>
+    <string name="dat_trzby_hint"></string>
+    <string name="celk_trzba_hint"></string>
+    <string name="zakl_nepodl_dph_hint"></string>
+    <string name="zakl_dan1_hint"></string>
+    <string name="dan1_hint"></string>
+    <string name="zakl_dan2_hint"></string>
+    <string name="dan2_hint"></string>
+    <string name="zakl_dan3_hint"></string>
+    <string name="dan3_hint"></string>
+    <string name="cest_sluz_hint"></string>
+    <string name="pouzit_zboz1_hint"></string>
+    <string name="pouzit_zboz2_hint"></string>
+    <string name="pouzit_zboz3_hint"></string>
+    <string name="urceno_cerp_zuct_hint"></string>
+    <string name="cerp_zuct_hint"></string>
+    <string name="rezim_hint"></string>
+
+
+    <string name="icon_exchange">&#xf0ec;</string>
+    <string name="icon_done_online">&#xf14a;</string>
+    <string name="icon_done_offline">&#xf046;</string>
+    <string name="icon_error">&#xf071;</string>
+    <string name="icon_gears">&#xf085;</string>
+
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="btnSearch">Connect  Bluetooth  Printer</string>
+    <string name="btnSend">Print</string>
+    <string name="btn_test">Print  Test  Page</string>
+    <string name="btnClose">Close</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="menu_settings">set</string>
+    <string name="strLang">en</string>
+    <string name="button_scan">Scan for devices</string>
+
+</resources>
